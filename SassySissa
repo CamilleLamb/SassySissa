@@ -1,0 +1,28 @@
+<?php
+// Selon une légende indienne, le jeu des échecs a été inventé par un vieux sage nommé Sissa. 
+// Son Seigneur, impressionné, aurait voulu le récompensé en lui offrant ce qu'il souhait.
+// Humble, Sissa demanda du riz, en précisant :
+// Assez pour mettre 1 grain de riz sur la première case de son damier, puis 2 sur la deuxième case, 4 sur la troisième, 8 sur la suivante, et ainsi de suite pour les 64 cases du damier.
+// Le seigneur, enthousiaste, donna son accord. 
+// Calculons la quantité total que le Seigneur doit au vieux sage, d'abord en nombre de grains, puis en poids (kilos et ... tonnes !), sachant qu'un kilo de riz est composé de 3500 grains.
+
+// Déclaration de la variable stockant le nombre total de grains
+$total = 0;
+// Boucle de 0 à 63 (64 cases du damier)
+for ($i = 0; $i < 64; $i++) {
+    // Calcul de la quantité pour la case actuelle
+    $actuelle = 2 ** $i;
+    // Affichage de la quantité pour la case actuelle
+    echo "Case " . ($i + 1) . ": " . $actuelle . " grain(s)\n";
+    // Ajoute la quantité de la case actuelle au total (jusqu'à ce que les quantités sur chaque case soient ajoutées)
+    $total += $actuel;
+}
+// Affiche le nombre total de grains de riz que le Seigneur doit à Sissa
+echo "Le Seigneur doit au vieux sage un total de " . $total . " grains de riz.\n";
+
+$poidsEnKilo = $total / 3500; // Calcul du poids total en kilos
+$poidsEnTonnes = $poidsEnKilo / 1000; // Calcul du poids total en tonnes
+
+// Affiche le poids total du riz que le Seigneur doit à Sissa
+echo "Le poids total de riz est d'environ " . $poidsEnKilo . " kilogrammes ou " . $poidsEnTonnes . " tonnes.\n";
+?>
