@@ -2,8 +2,6 @@
 
 PHP Loops practice to solve the Sissa problem (with french comments).
 
-I did it in class at La Passerelle school (Paris, FR). My teacher was Jean-Serge Quetier.
-
 
 # What's the problem ?
 
