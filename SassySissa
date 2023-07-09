@@ -1,10 +1,4 @@
 <?php
-// Selon une légende indienne, le jeu des échecs a été inventé par un vieux sage nommé Sissa. 
-// Son Seigneur, impressionné, aurait voulu le récompensé en lui offrant ce qu'il souhait.
-// Humble, Sissa demanda du riz, en précisant :
-// Assez pour mettre 1 grain de riz sur la première case de son damier, puis 2 sur la deuxième case, 4 sur la troisième, 8 sur la suivante, et ainsi de suite pour les 64 cases du damier.
-// Le seigneur, enthousiaste, donna son accord. 
-// Calculons la quantité total que le Seigneur doit au vieux sage, d'abord en nombre de grains, puis en poids (kilos et ... tonnes !), sachant qu'un kilo de riz est composé de 3500 grains.
 
 // Déclaration de la variable stockant le nombre total de grains
 $total = 0;
